@@ -49,57 +49,44 @@
 <table>
   <tr>
     <td align="center" width="33%">
-      <img src="public/AlgoStockGPT AI.png" alt="AlgoStockGPT AI" width="100%"/>
+      <img src="https://i.ibb.co.com/qF78YFst/webkuuss.png" alt="Webku" width="100%"/>
       <br/>
-      <b>AlgoStockGPT AI</b>
+      <b>Webku</b>
       <br/>
-      <sub>AI-Powered Financial Intelligence</sub>
+      <sub>Website Development Service for UMKM</sub>
     </td>
     <td align="center" width="33%">
-      <img src="public/BlockFinAI.png" alt="BlockFinAI" width="100%"/>
+      <img src="https://i.ibb.co.com/KjdvbxP8/UNIQLOEXOMERCE.png" alt="Uniqloecomerce" width="100%"/>
       <br/>
-      <b>BlockFinAI</b>
+      <b>Uniqloecomerce</b>
       <br/>
-      <sub>YOLOv8 Chart Pattern Detection</sub>
+      <sub>Modern E-Commerce Platform</sub>
     </td>
     <td align="center" width="33%">
-      <img src="public/Ruaroa AI.png" alt="Ruaroa AI" width="100%"/>
+      <img src="https://i.ibb.co.com/twRDDvv6/orange-classification.png" alt="Orange Classification" width="100%"/>
       <br/>
-      <b>Ruaroa AI</b>
+      <b>Orange Classification</b>
       <br/>
-      <sub>Zero-Code ML Pipeline Generator</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="33%">
-      <img src="public/p4.png" alt="ECG Arrhythmia Detector" width="100%"/>
-      <br/>
-      <b>ECG Arrhythmia Detector</b>
-      <br/>
-      <sub>Real-time Cardiac Monitoring</sub>
-    </td>
-    <td align="center" width="33%">
-      <img src="public/portfolio.png" alt="Portfolio Optimization" width="100%"/>
-      <br/>
-      <b>Portfolio Selection</b>
-      <br/>
-      <sub>Cardinality-Constrained Optimization</sub>
-    </td>
-    <td align="center" width="33%">
-      <img src="public/trade.png" alt="Trading Bot" width="100%"/>
-      <br/>
-      <b>SOLUSDT Signal Bot</b>
-      <br/>
-      <sub>Algorithmic Trading System</sub>
+      <sub>ML-Based Fruit Quality Detection</sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="33%">
-      <img src="public/QuantumTrade-Nexus.png" alt="QuantumTrade Nexus" width="100%"/>
+      <img src="https://i.ibb.co.com/7tC9Rskw/salary-predict.png" alt="Salary Prediction" width="100%"/>
       <br/>
-      <b>QuantumTrade Nexus</b>
+      <b>Salary Prediction</b>
       <br/>
-      <sub>Advanced Trading Intelligence Platform</sub>
+      <sub>ML Web App for Salary Forecasting</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://i.ibb.co.com/1Jp8r0tr/Wine-quality-predict.png" alt="Wine Quality Prediction" width="100%"/>
+      <br/>
+      <b>Wine Quality Prediction</b>
+      <br/>
+      <sub>Physicochemical Wine Analysis</sub>
+    </td>
+    <td align="center" width="33%">
+      <!-- Empty cell for layout balance -->
     </td>
   </tr>
 </table>
@@ -149,7 +136,7 @@ npm or pnpm package manager
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/dhikdhiks/portfolio.git
+git clone https://github.com/dhikdhiks/dika-portfolio.git
 cd portfolio
 ```
 
@@ -213,8 +200,7 @@ portfolio/
 │   ├── Ruaroa AI.png
 │   ├── p4.png
 │   ├── portfolio.png
-│   ├── trade.png
-│   ├── DikaRESUME.pdf          # Resume file
+│   ├── trade.png         
 │   └── ...
 │
 └── Configuration files
@@ -277,7 +263,6 @@ EMAIL_PASS=your-16-digit-app-password
 **Update Personal Information:**
 - Edit `app/page.tsx` for content
 - Replace images in `public/` folder
-- Update `DikaRESUME.pdf` with your resume
 - Modify `app/layout.tsx` for meta tags
 
 **Styling:**
@@ -321,25 +306,6 @@ npm start
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
-
-## 🤝 Connect With Me
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/Dikadhama)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dhikdhiks)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:augustandhika263@gmail.com)
-
-### 💡 *"Engineering solutions that are both mathematically sound and practically impactful."*
-
-</div>
-
----
-
-<div align="center">
-
-**Built with ❤️ by Andhika August Farnaz**
-
 *Web Developer | ML Engineer | Data Scientist*
 
 ⭐ Star this repo if you find it helpful!
