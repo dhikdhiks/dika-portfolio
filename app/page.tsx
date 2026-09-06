@@ -17,6 +17,35 @@ import { KnowledgeBrain } from "@/components/knowledge-brain"
 import { Marquee } from "@/components/magicui/marquee"
 import { ECGProjectCard } from "@/components/ECGProjectCard"
 import { LearnNavbar } from "@/components/learn-navbar"
+import {
+  siPython,
+  siPandas,
+  siNumpy,
+  siFreshrss,
+  siScikitlearn,
+  siJupyter,
+  siJavascript,
+  siLaravel,
+  siNextdotjs,
+  siReact,
+  siGit,
+  siLibreofficecalc,
+} from "simple-icons"; 
+
+const skillIcons = {
+  python: siPython,
+  pandas: siPandas,
+  numpy: siNumpy,
+  matplotlib: siFreshrss,
+  "scikit-learn": siScikitlearn,
+  jupyter: siJupyter,
+  javascript: siJavascript,
+  laravel: siLaravel,
+  nextjs: siNextdotjs,
+  react: siReact,
+  git: siGit,
+  excel: siLibreofficecalc,
+};
 
 export default function Portfolio() {
   return (
@@ -40,7 +69,7 @@ export default function Portfolio() {
             <h1 className="text-4xl sm:text-5xl font-bold tracking-tight">
               <span className="block">Hi, I'm</span>
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-phthalo-400 to-phthalo-600">
-                Vimal Dhama
+                Andhika August Farnaz
               </span>
             </h1>
             
@@ -52,14 +81,14 @@ export default function Portfolio() {
             {/* 3. Software engineer badge */}
             <div className="flex justify-center">
               <div className="relative px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/20">
-                <span className="relative z-10">Quantitative Analyst | AI/ML Engineer | Data Scientist</span>
+                <span className="relative z-10">Web Developer | ML Engineer | Data Scientist</span>
                 <span className="absolute inset-0 rounded-full bg-gradient-to-r from-phthalo-500/20 to-phthalo-700/20 animate-pulse"></span>
               </div>
             </div>
 
             {/* 4. Description */}
             <p className="text-lg text-zinc-400 max-w-[600px]">
-              I blend advanced mathematics, artificial intelligence, machine learning, and full-stack engineering to turn complex ideas into real-world tools.
+              With a background in IT infrastructure and programming, I am now exploring data science and machine learning to build practical, data-driven solutions.
             </p>
             
             {/* 5. Buttons */}
@@ -84,7 +113,7 @@ export default function Portfolio() {
             
             {/* 6. Social icons */}
             <div className="flex gap-4 justify-center">
-              <Link href="https://github.com/vimal0156" target="_blank" rel="noopener noreferrer">
+              <Link href="https://github.com/dhikdhiks" target="_blank" rel="noopener noreferrer">
                 <Button
                   variant="ghost"
                   size="icon"
@@ -94,7 +123,7 @@ export default function Portfolio() {
                   <span className="sr-only">GitHub</span>
                 </Button>
               </Link>
-              <Link href="https://www.linkedin.com/in/vimaldhama" target="_blank" rel="noopener noreferrer">
+              <Link href="https://www.linkedin.com/in/andhika-august-farnaz-624459294/" target="_blank" rel="noopener noreferrer">
                 <Button
                   variant="ghost"
                   size="icon"
@@ -104,7 +133,7 @@ export default function Portfolio() {
                   <span className="sr-only">LinkedIn</span>
                 </Button>
               </Link>
-              <Link href="mailto:vimaldhama0@gmail.com">
+              <Link href="mailto:augustandhika263@gmail.com">
                 <Button
                   variant="ghost"
                   size="icon"
@@ -122,7 +151,7 @@ export default function Portfolio() {
             <div className="space-y-6 text-left">
               <div className="inline-block">
                 <div className="relative px-3 py-1 text-sm font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-4">
-                  <span className="relative z-10">Quantitative Analyst | AI/ML Engineer | Data Scientist</span>
+                  <span className="relative z-10">Web Developer | ML Engineer | Data Scientist</span>
                   <span className="absolute inset-0 rounded-full bg-gradient-to-r from-phthalo-500/20 to-phthalo-700/20 animate-pulse"></span>
                 </div>
               </div>
@@ -130,11 +159,11 @@ export default function Portfolio() {
               <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
                 <span className="block">Hi, I'm</span>
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-phthalo-400 to-phthalo-600">
-                  Vimal Dhama
+                  Andhika August Farnaz
                 </span>
               </h1>
               <p className="text-xl text-zinc-400 max-w-[600px]">
-                I blend advanced mathematics, artificial intelligence, machine learning, and full-stack engineering to turn complex ideas into real-world tools.
+                With a background in IT infrastructure and programming, I am now exploring data science and machine learning to build practical, data-driven solutions.
               </p>
               <div className="flex flex-wrap gap-4 pt-4">
                 <Link href="#projects">
@@ -155,7 +184,7 @@ export default function Portfolio() {
                 </Link>
               </div>
               <div className="flex gap-4 pt-4">
-                <Link href="https://github.com/vimal0156" target="_blank" rel="noopener noreferrer">
+                <Link href="https://github.com/dhikdhiks" target="_blank" rel="noopener noreferrer">
                   <Button
                     variant="ghost"
                     size="icon"
@@ -165,7 +194,7 @@ export default function Portfolio() {
                     <span className="sr-only">GitHub</span>
                   </Button>
                 </Link>
-                <Link href="https://www.linkedin.com/in/vimaldhama" target="_blank" rel="noopener noreferrer">
+                <Link href="https://www.linkedin.com/in/andhika-august-farnaz-624459294/" target="_blank" rel="noopener noreferrer">
                   <Button
                     variant="ghost"
                     size="icon"
@@ -175,7 +204,7 @@ export default function Portfolio() {
                     <span className="sr-only">LinkedIn</span>
                   </Button>
                 </Link>
-                <Link href="mailto:vimaldhama0@gmail.com">
+                <Link href="mailto:augustandhika263@gmail.com">
                   <Button
                     variant="ghost"
                     size="icon"
@@ -215,15 +244,15 @@ export default function Portfolio() {
               <div className="absolute -inset-4 rounded-xl bg-gradient-to-r from-phthalo-500/20 to-phthalo-700/20 blur-xl opacity-70"></div>
               <div className="relative aspect-square rounded-xl overflow-hidden border border-zinc-800">
                 <img
-                  src="/image.jpg"
-                  alt="Vimal Dhama"
+                  src="https://i.ibb.co.com/HDqLgFtN/Whats-App-Image-2026-09-05-at-7-34-31-PM.jpg"
+                  alt="Andhika August Farnaz"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                 <div className="absolute bottom-0 left-0 w-full p-6">
                   <div className="flex items-center gap-2">
                     <div className="w-3 h-3 rounded-full bg-green-500 animate-pulse"></div>
-                    <span className="text-sm font-medium">Available for work</span>
+                    <span className="text-sm font-medium">Available for side job remote</span>
                   </div>
                 </div>
               </div>
@@ -231,29 +260,29 @@ export default function Portfolio() {
 
             <div className="space-y-6">
               <GlassmorphicCard>
-                <p className="text-lg text-zinc-300">
-                  I'm a BTech graduate in Artificial Intelligence & Machine Learning with proven expertise as a Quantitative Analyst, Data Scientist, and AI/ML Engineer. My work lives at the intersection of quantitative finance, advanced analytics, and intelligent automation: I build algorithmic trading platforms, predictive models, and AI-driven solutions that deliver measurable impact.
-                </p>
-                <p className="text-lg text-zinc-300 mt-4">
-                  I specialize in applying rigorous quantitative methods—portfolio optimization, Monte Carlo simulations, options pricing, and risk modeling—combined with cutting-edge AI/ML frameworks (TensorFlow, PyTorch, Scikit-learn) to solve complex problems in finance and technology. My work consistently improves forecasting accuracy, optimizes portfolios, and empowers data-driven decision-making.
-                </p>
-                <p className="text-lg text-zinc-300 mt-4">
-                  Today, I work primarily with Python, R, SQL, and modern web technologies. My focus spans algorithmic trading, time-series forecasting, deep learning applications, and real-time data analytics. Whether in quantitative finance or AI engineering, my goal is the same: to engineer solutions that are both mathematically sound and practically impactful.
-                </p>
+<p className="text-lg text-zinc-300">
+  I'm a Data Science student with a background in Information Systems, Networks, and Applications. My technical journey spans web development, networking, Linux, IoT, and data-driven applications.
+</p>
+<p className="text-lg text-zinc-300 mt-4">
+  I focus on Python, data analysis, machine learning, and software development, with experience using NumPy, Pandas, Matplotlib, Scikit-learn, React, Next.js, and Laravel.
+</p>
+<p className="text-lg text-zinc-300 mt-4">
+  My primary focus is machine learning and artificial intelligence. I’m currently strengthening my foundations in mathematics, statistics, and machine learning while exploring Deep Learning, AI Agents, and automation.
+</p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8">
                   <div className="space-y-1">
                     <div className="text-sm text-zinc-500">Name</div>
-                    <div className="font-medium">Vimal Dhama</div>
+                    <div className="font-medium">Andhika August Farnaz</div>
                   </div>
 
                   <div className="space-y-1">
                     <div className="text-sm text-zinc-500">Email</div>
-                    <div className="font-medium break-all">vimaldhama0@gmail.com</div>
+                    <div className="font-medium break-all">augustandhika263@gmail.com</div>
                   </div>
                   <div className="space-y-1">
                     <div className="text-sm text-zinc-500">Location</div>
-                    <div className="font-medium">New Delhi, India</div>
+                    <div className="font-medium">Yogyakarta, Indonesia</div>
                   </div>
                   <div className="space-y-1">
                     <div className="text-sm text-zinc-500">Availability</div>
@@ -262,14 +291,14 @@ export default function Portfolio() {
                 </div>
 
                 <div className="mt-8">
-                  <a
-                    href="/VIMALRESUME.pdf"
+                  {/* <a
+                    href="/DikaRESUME.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-zinc-800 hover:bg-zinc-700 text-white px-4 py-2 rounded-md"
                   >
                     View Resume
-                  </a>
+                  </a> */}
 
                 </div>
               </GlassmorphicCard>
@@ -278,7 +307,7 @@ export default function Portfolio() {
         </div>
       </section>
 
-      {/* Skills Section */}
+            {/* Skills Section */}
       <section id="skills" className="py-32 relative">
         <div className="absolute inset-0 z-0">
           <div className="absolute top-1/3 left-1/4 w-64 h-64 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
@@ -288,49 +317,128 @@ export default function Portfolio() {
         <div className="container relative z-10">
           <SectionHeading title="My Skills" subtitle="Technologies I work with" />
 
-          {/* Desktop: Two horizontal rows */}
+          {/* Desktop: Two horizontal rows with Marquee */}
           <div className="hidden md:block mt-16">
             <div className="relative flex w-full flex-col items-center justify-center overflow-hidden">
               <Marquee pauseOnHover className="[--duration:20s]">
-                <SkillBadge name="Python" level={100} />
-                <SkillBadge name="R" level={95} />
-                <SkillBadge name="SQL" level={100} />
-                <SkillBadge name="Tableau" level={95} />
-                <SkillBadge name="TensorFlow" level={90} />
-                <SkillBadge name="PyTorch" level={90} />
+                {[
+                  { name: 'Python', icon: 'python' },
+                  { name: 'Pandas', icon: 'pandas' },
+                  { name: 'NumPy', icon: 'numpy' },
+                  { name: 'Matplotlib', icon: 'matplotlib' },
+                  { name: 'Scikit-learn', icon: 'scikit-learn' },
+                  { name: 'Jupyter', icon: 'jupyter' },
+                ].map((skill) => {
+                  const iconData = skillIcons[skill.icon as keyof typeof skillIcons];
+                  return (
+                    <div
+                      key={skill.name}
+                      className="flex items-center gap-2 mx-4 px-4 py-2 rounded-full bg-zinc-800/50 backdrop-blur-sm border border-white/10"
+                    >
+                      {iconData && (
+                        <svg
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          className="w-5 h-5 text-white"
+                          dangerouslySetInnerHTML={{ __html: iconData.svg }}
+                        />
+                      )}
+                      <span className="text-sm font-medium text-white">{skill.name}</span>
+                    </div>
+                  );
+                })}
               </Marquee>
               <Marquee reverse pauseOnHover className="[--duration:20s]">
-                <SkillBadge name="Scikit-learn" level={95} />
-                <SkillBadge name="Excel/VBA" level={90} />
-                <SkillBadge name="Power BI" level={85} />
-                <SkillBadge name="Next.js" level={85} />
-                <SkillBadge name="TypeScript" level={80} />
-                <SkillBadge name="Git" level={90} />
-                <SkillBadge name="Docker" level={75} />
+                {[
+                  { name: 'JavaScript', icon: 'javascript' },
+                  { name: 'Laravel', icon: 'laravel' },
+                  { name: 'Next.js', icon: 'nextjs' },
+                  { name: 'React', icon: 'react' },
+                  { name: 'Git', icon: 'git' },
+                  { name: 'LibreOffice Calc', icon: 'excel' },
+                ].map((skill) => {
+                  const iconData = skillIcons[skill.icon as keyof typeof skillIcons];
+                  return (
+                    <div
+                      key={skill.name}
+                      className="flex items-center gap-2 mx-4 px-4 py-2 rounded-full bg-zinc-800/50 backdrop-blur-sm border border-white/10"
+                    >
+                      {iconData && (
+                        <svg
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          className="w-5 h-5 text-white"
+                          dangerouslySetInnerHTML={{ __html: iconData.svg }}
+                        />
+                      )}
+                      <span className="text-sm font-medium text-white">{skill.name}</span>
+                    </div>
+                  );
+                })}
               </Marquee>
               <div className="pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-zinc-900"></div>
               <div className="pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l from-zinc-900"></div>
             </div>
           </div>
 
-          {/* Mobile: Two vertical columns */}
+          {/* Mobile: Two vertical columns with vertical Marquee */}
           <div className="md:hidden mt-16">
             <div className="relative flex h-[500px] w-full flex-row items-center justify-center overflow-hidden">
               <Marquee pauseOnHover vertical className="[--duration:20s]">
-                <SkillBadge name="Python" level={100} />
-                <SkillBadge name="R" level={95} />
-                <SkillBadge name="SQL" level={100} />
-                <SkillBadge name="Tableau" level={95} />
-                <SkillBadge name="TensorFlow" level={90} />
-                <SkillBadge name="PyTorch" level={90} />
+                {[
+                  { name: 'Python', icon: 'python' },
+                  { name: 'Pandas', icon: 'pandas' },
+                  { name: 'NumPy', icon: 'numpy' },
+                  { name: 'Matplotlib', icon: 'matplotlib' },
+                  { name: 'Scikit-learn', icon: 'scikit-learn' },
+                  { name: 'Jupyter', icon: 'jupyter' },
+                ].map((skill) => {
+                  const iconData = skillIcons[skill.icon as keyof typeof skillIcons];
+                  return (
+                    <div
+                      key={skill.name}
+                      className="flex items-center gap-2 my-3 px-4 py-2 rounded-full bg-zinc-800/50 backdrop-blur-sm border border-white/10"
+                    >
+                      {iconData && (
+                        <svg
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          className="w-5 h-5 text-white"
+                          dangerouslySetInnerHTML={{ __html: iconData.svg }}
+                        />
+                      )}
+                      <span className="text-sm font-medium text-white">{skill.name}</span>
+                    </div>
+                  );
+                })}
               </Marquee>
               <Marquee reverse pauseOnHover vertical className="[--duration:20s]">
-                <SkillBadge name="Scikit-learn" level={95} />
-                <SkillBadge name="Excel/VBA" level={90} />
-                <SkillBadge name="Power BI" level={85} />
-                <SkillBadge name="Next.js" level={85} />
-                <SkillBadge name="TypeScript" level={80} />
-                <SkillBadge name="Git" level={90} />
+                {[
+                  { name: 'JavaScript', icon: 'javascript' },
+                  { name: 'Laravel', icon: 'laravel' },
+                  { name: 'Next.js', icon: 'nextjs' },
+                  { name: 'React', icon: 'react' },
+                  { name: 'Git', icon: 'git' },
+                  { name: 'Excel', icon: 'excel' },
+                ].map((skill) => {
+                  const iconData = skillIcons[skill.icon as keyof typeof skillIcons];
+                  return (
+                    <div
+                      key={skill.name}
+                      className="flex items-center gap-2 my-3 px-4 py-2 rounded-full bg-zinc-800/50 backdrop-blur-sm border border-white/10"
+                    >
+                      {iconData && (
+                        <svg
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          className="w-5 h-5 text-white"
+                          dangerouslySetInnerHTML={{ __html: iconData.svg }}
+                        />
+                      )}
+                      <span className="text-sm font-medium text-white">{skill.name}</span>
+                    </div>
+                  );
+                })}
               </Marquee>
               <div className="pointer-events-none absolute inset-x-0 top-0 h-1/4 bg-gradient-to-b from-zinc-900"></div>
               <div className="pointer-events-none absolute inset-x-0 bottom-0 h-1/4 bg-gradient-to-t from-zinc-900"></div>
@@ -339,77 +447,64 @@ export default function Portfolio() {
         </div>
       </section>
 
-      {/* Projects Section */}
-      <section id="projects" className="py-32 relative">
-        <div className="absolute inset-0 z-0">
-          <div className="absolute top-1/4 left-1/3 w-64 h-64 bg-phthalo-700 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
-          <div className="absolute bottom-1/3 right-1/4 w-64 h-64 bg-yellow-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
-        </div>
+{/* Projects Section */}
+<section id="projects" className="py-32 relative">
+  <div className="absolute inset-0 z-0">
+    <div className="absolute top-1/4 left-1/3 w-64 h-64 bg-phthalo-700 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
+    <div className="absolute bottom-1/3 right-1/4 w-64 h-64 bg-yellow-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
+  </div>
 
-        <div className="container relative z-10">
-          <SectionHeading title="Featured Projects" subtitle="Some of my recent work" />
+  <div className="container relative z-10">
+    <SectionHeading title="Featured Projects" subtitle="Some of my recent work" />
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
-            <ECGProjectCard
-              title="ECG Arrhythmia Detector"
-              description="A real-time ECG monitoring application that streams live cardiac data and performs intelligent arrhythmia detection using advanced signal processing algorithms. Tracks PVC burden, detects patterns like bigeminy and trigeminy, and supports session-based analysis with planned alarm functionality for high-risk events."
-              tags={["Next.js", "TypeScript", "Expo", "Python", "IOS Development"]}
-              image="/p4.png?height=400&width=600"
-              repoUrl="https://github.com/vimal0156/ECG-Arrhythmia-Detection-IOS-app"
-            />
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
+      
+      <ProjectCard
+        title="Webku"
+        description="A professional web development service platform designed specifically for MSMEs (UMKM). This website offers comprehensive website creation services including custom design, e-commerce solutions, and digital presence optimization. Built with modern technologies to deliver fast, responsive, and SEO-friendly websites tailored for small business needs."
+        tags={["Next.js", "React", "Tailwind CSS", "Radix UI", "shadcn/ui", "Lucide React", "Framer Motion", "React Hook Form", "Zod", "MongoDB", "Axios", "SWR", "TanStack React Query", "Node.js", "npm", "Yarn", "Git"]}
+        image="https://i.ibb.co.com/qF78YFst/webkuuss.png"
+        repoUrl="https://github.com/dhikdhiks/Webku"
+      />
 
+      <ProjectCard
+        title="Uniqloecomerce"
+        description="A modern e-commerce platform built with PHP and Laravel, featuring a complete shopping cart system with Surfsidemedia integration. Includes real-time chat functionality with Chatify, social authentication via Socialite, and a clean UI with Heroicons and Boxicons. Fully tested with PHPUnit and Faker, and optimized with Laravel Sail, Pail, and Pint for seamless development and deployment."
+        tags={["PHP", "Laravel", "Shopping Cart (Surfsidemedia)", "Chatify", "Socialite", "Laravel UI", "Intervention Image", "Heroicons", "Boxicons", "Tinker", "Laravel Sail", "Laravel Pail", "Laravel Pint", "PHPUnit", "Faker", "Mockery", "Collision"]}
+        image="https://i.ibb.co.com/KjdvbxP8/UNIQLOEXOMERCE.png"
+        repoUrl="https://github.com/dhikdhiks/uniqloeccomers"
+      />
 
-            <ProjectCard
-              title="Cardinality-Constrained Portfolio Selection"
-              description="A research-style project that solves the mean-variance portfolio optimization problem with a cardinality constraint using integer programming. This model captures the real-world need to limit the number of assets in a portfolio, introducing combinatorial complexity and paving the way for quantum-inspired methods."
-              tags={["Jupyter", "Python", "NumPy", "CVXPY"]}
-              image="/portfolio.png"
-              repoUrl="https://github.com/vimal0156/Cardinality-Constrained-Portfolio-Selection"
-            />
-            <ProjectCard
-              title="SOLUSDT signal bot"
-              description="A custom algorithmic trading system for Solana using custom signals, enhanced with BTCUSDT price context for confirmation. The strategy includes dynamic stop-loss, ATR-based take-profit, slippage modeling, and realistic funding/fee handling. Backtested on 5-minute candles with live simulation support. It has been deployed live and generated consistent profit in high freq trading environments."
-              tags={["Python", "Pandas", "Matplotlib", "Backtesting", "Crypto", "Quant"]}
-              image="/trade.png"
-            />
-            <ProjectCard
-              title="BlockFinAI"
-              description="BlockFinAI is an advanced application designed for detecting patterns in stock and cryptocurrency charts using deep learning techniques. Inspired by the YOLO Object Recognition Algorithm research, this project implements YOLOv8 and integrates it into a user-friendly Streamlit app. BlockFinAI automates chart pattern recognition to empower traders and analysts."
-              tags={["Python", "YOLOv8", "Streamlit", "Deep Learning", "Computer Vision"]}
-              image="/BlockFinAI.png"
-              repoUrl="https://github.com/vimal0156/BlockFinAI"
-            />
+      <ProjectCard
+        title="Wine Quality Prediction"
+        description="A machine learning project that predicts the quality of wine based on physicochemical properties using classification models. Features comprehensive data analysis and visualization with Matplotlib and Seaborn, and implements multiple algorithms including Random Forest, SVM, and Logistic Regression. The project includes feature importance analysis and model evaluation with hyperparameter tuning."
+        tags={["Python", "NumPy", "Pandas", "Matplotlib", "Seaborn", "Scikit-learn", "Jupyter Notebook"]}
+        image="https://i.ibb.co.com/1Jp8r0tr/Wine-quality-predict.png"
+        repoUrl="https://github.com/dhikdhiks/wine-quality-predict"
+      />
 
-            <ProjectCard
-              title="Ruaroa AI"
-              description="Ruaroa AI is your personal ML wizard that conjures complete machine learning pipelines from simple natural language descriptions. Just describe what you want, upload your data, and watch the magic happen! Using advanced AI reasoning and iterative experimentation, it crafts production-ready solutions that would typically require weeks of expert development."
-              tags={["Python", "Streamlit", "OpenAI", "Machine Learning", "NLP"]}
-              image="/Ruaroa AI.png"
-              repoUrl="https://github.com/vimal0156/Ruaroa-AI"
-            />
+      <ProjectCard
+        title="Salary Prediction"
+        description="A machine learning web application that predicts annual salary based on demographic and professional factors including age, gender, education, job title, country, race, and years of experience. Uses Random Forest Regressor with 94.6% R² accuracy. Features an interactive Streamlit frontend with real-time predictions and automatic job title categorization."
+        tags={["Python", "Pandas", "NumPy", "Scikit-learn", "Streamlit", "Matplotlib", "Seaborn", "Pickle", "Git & GitHub"]}
+        image="https://i.ibb.co.com/7tC9Rskw/salary-predict.png"
+        repoUrl="https://github.com/dhikdhiks/Salary-Prediction"
+      />
 
-            <ProjectCard
-              title="AlgoStockGPT AI"
-              description="AlgoStockGPT AI is a cutting-edge financial intelligence platform that leverages the power of artificial intelligence to provide comprehensive stock analysis, real-time market insights, and algorithmic trading strategies. Your personal AI financial analyst, providing institutional-grade stock analysis and market intelligence through a seamless, conversational interface."
-              tags={["Next.js", "OpenAI", "GPT-4", "Financial Analysis", "AI"]}
-              image="/AlgoStockGPT AI.png"
-              repoUrl="https://github.com/vimal0156/AlgoStockGPT-AI"
-            />
+      <ProjectCard
+        title="Orange Classification"
+        description="A machine learning classification web application that predicts the quality of oranges (Bagus/Sedang/Jelek) based on physical characteristics such as diameter, weight, skin thickness, sugar content, region, color, and harvest season. Built with Logistic Regression and Streamlit, featuring an interactive form with dropdown selections and confidence score display."
+        tags={["Python", "Pandas", "NumPy", "Scikit-learn", "Streamlit", "Matplotlib", "Joblib", "Git & GitHub"]}
+        image="https://i.ibb.co.com/twRDDvv6/orange-classification.png"
+        repoUrl="https://github.com/dhikdhiks/MLOrangeQualityClasification"
+      />
 
-            <ProjectCard
-              title="QuantumTrade Nexus"
-              description="Advanced Trading Intelligence Platform - Comprehensive financial analysis toolkit with 15+ technical indicators, algorithmic strategies, and real-time market intelligence. Features include market scanner, custom signals, advanced trading tools, and trading strategies with backtesting capabilities. Supports multiple data sources including Yahoo Finance and online APIs."
-              tags={["Python", "Streamlit", "Pandas", "TA-Lib", "Algorithmic Trading", "Technical Analysis"]}
-              image="/QuantumTrade-Nexus.png"
-              repoUrl="https://github.com/vimal0156/QuantumTrade-Nexus"
-            />
-
-          </div>
-        </div>
-      </section>
+    </div>
+  </div>
+</section>
 
       {/* Grind Section */}
-      <section className="py-32 relative" id="grind">
+      {/* <section className="py-32 relative" id="grind">
         <div className="absolute inset-0 z-0">
           <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-phthalo-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
           <div className="absolute bottom-1/3 right-1/3 w-64 h-64 bg-phthalo-700 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
@@ -418,7 +513,7 @@ export default function Portfolio() {
         <div className="container relative z-10">
           <GrindSection />
         </div>
-      </section>
+      </section> */}
 
       {/* Knowledge Brain Section */}
       {/* <section className="py-32 relative">
@@ -468,7 +563,11 @@ export default function Portfolio() {
                   </div>
                   <div>
                     <div className="text-sm text-zinc-500">Email</div>
-                    <div className="font-medium">vimaldhama0@gmail.com</div>
+                    <div className="font-medium">
+                      <Link href="mailto:augustandhika263@gmail.com" target="_blank" rel="noopener noreferrer">
+                        augustandhika263@gmail.com
+                      </Link>
+                    </div>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -477,7 +576,11 @@ export default function Portfolio() {
                   </div>
                   <div>
                     <div className="text-sm text-zinc-500">LinkedIn</div>
-                    <div className="font-medium">www.linkedin.com/in/vimaldhama</div>
+                    <div className="font-medium">
+                        <Link href="https://www.linkedin.com/in/andhika-august-farnaz-624459294/" target="_blank" rel="noopener noreferrer">
+                          Andhika August Farnaz
+                        </Link>
+                    </div>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -486,7 +589,11 @@ export default function Portfolio() {
                   </div>
                   <div>
                     <div className="text-sm text-zinc-500">GitHub</div>
-                    <div className="font-medium">github.com/vimal0156</div>
+                    <div className="font-medium">
+                      <Link href="https://github.com/dhikdhiks" target="_blank" rel="noopener noreferrer">
+                        github.com/dhikdhiks
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -495,7 +602,7 @@ export default function Portfolio() {
                 <h4 className="text-lg font-medium mb-4">Current Status </h4>
                 <div className="flex items-center gap-2">
                   <div className="w-3 h-3 rounded-full bg-green-500 animate-pulse"> </div>
-                  <span>Open to opportunities in Quantitative Finance, Data Science, and AI/ML Engineering!</span>
+                  <span>Open to opportunities in Quantitative Finance, Data Science, and ML Engineering!</span>
                 </div>
               </div>
             </GlassmorphicCard>
@@ -506,7 +613,7 @@ export default function Portfolio() {
       </section>
 
       {/* Learn CTA Section */}
-      <section className="py-32 relative">
+      {/* <section className="py-32 relative">
         <div className="absolute inset-0 z-0">
           <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-phthalo-700 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
           <div className="absolute bottom-1/3 right-1/3 w-64 h-64 bg-phthalo-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
@@ -543,7 +650,7 @@ export default function Portfolio() {
             </GlassmorphicCard>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Footer */}
       <footer className="border-t border-zinc-800 py-12">
@@ -551,16 +658,16 @@ export default function Portfolio() {
           <div>
             <Link href="/" className="font-bold text-xl">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-phthalo-400 to-phthalo-600">
-                Vimal
+                Dika
               </span>
               <span className="text-white">Dev</span>
             </Link>
             <p className="text-sm text-zinc-500 mt-2">
-              © {new Date().getFullYear()} Vimal Dhama. All rights reserved.
+              © {new Date().getFullYear()} Andhika August Farnaz. All rights reserved.
             </p>
           </div>
           <div className="flex gap-4">
-            <Link href="https://github.com/vimal0156" target="_blank" rel="noopener noreferrer">
+            <Link href="https://github.com/dhikdhiks" target="_blank" rel="noopener noreferrer">
               <Button
                 variant="ghost"
                 size="icon"
@@ -570,7 +677,7 @@ export default function Portfolio() {
                 <span className="sr-only">GitHub</span>
               </Button>
             </Link>
-            <Link href="https://www.linkedin.com/in/vimaldhama" target="_blank" rel="noopener noreferrer">
+            <Link href="https://www.linkedin.com/in/andhika-august-farnaz-624459294/" target="_blank" rel="noopener noreferrer">
               <Button
                 variant="ghost"
                 size="icon"
@@ -580,7 +687,7 @@ export default function Portfolio() {
                 <span className="sr-only">LinkedIn</span>
               </Button>
             </Link>
-            <Link href="mailto:vimaldhama0@gmail.com">
+            <Link href="mailto:augustandhika263@gmail.com">
               <Button
                 variant="ghost"
                 size="icon"

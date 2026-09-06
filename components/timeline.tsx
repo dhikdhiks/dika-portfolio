@@ -5,31 +5,18 @@ import { useMobile } from "@/hooks/use-mobile"
 
 const experiences = [
   {
-    title: "Independent Trader",
-    company: "Self Employed",
-    period: "Sep 2024 - Present",
+    title: "Sales & Customer Outreach Intern",
+    company: "PT Mega Karya mandiri",
+    period: "2025 - 2026",
     description:
-      "Engineered quantitative trading strategies across equities, derivatives, and forex, consistently achieving positive risk-adjusted returns. Developed proprietary AI trading bots, enhancing execution speed and strategy accuracy in volatile conditions. Applied macroeconomic & microeconomic research to capture high-value trading opportunities. Implemented risk frameworks and portfolio optimization models to balance exposure and maximize returns.",
+      "Supported sales activities through customer outreach, email campaigns, product promotion, and digital catalog creation. Assisted the sales team in managing customer and product information.",
   },
   {
-    title: "Data Analyst",
-    company: "Futurestic",
-    period: "Sep 2024 - Feb 2025",
+    title: "Data & Administrative Intern",
+    company: "PT Mega Karya mandiri",
+    period: "2025 - 2026",
     description:
-      "Designed predictive models, dashboards, and automation pipelines using Python, SQL, and Tableau. Delivered actionable insights that supported growth in renewable energy and eCommerce sectors. Reduced reporting turnaround by 30%, minimizing errors and empowering data-driven decision-making.",
-  },
-  {
-    title: "Quantitative Analyst",
-    company: "Mudraksh & McShaw Advisory",
-    period: "Dec 2023 - Aug 2024",
-    description:
-      "Increased financial forecast accuracy by 15% using ML-driven time-series models. Applied Monte Carlo simulations to evaluate volatility and optimize risk-adjusted strategies. Automated financial analysis workflows in Python & Excel, improving reporting efficiency by 20%.",
-  },
-  {
-    title: "Tech Lead & Coordinator",
-    company: "STEM Club, Presidency University",
-    period: "Jun 2023 - Dec 2024",
-    description: "Organized workshops for over 150+ students and represented the club at Founder's Day with 60 founders. Led technical initiatives and coordinated club activities.",
+      "Managed and analyzed sales data using Excel and LibreOffice, including Pivot Tables, reporting, financial records, and data organization. Supported administrative processes and improved data management workflows.",
   },
 ]
 

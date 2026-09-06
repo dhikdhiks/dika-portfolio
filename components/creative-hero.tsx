@@ -113,7 +113,7 @@ export function CreativeHero() {
             }}
           >
             <img
-              src="/pfpicon.png"
+              src="https://i.ibb.co.com/5hd5cHqS/IMG-20260116-184220-828.webp"
               alt="Shine Kyaw Kyaw Aung"
               className="w-full h-full object-cover transition-transform duration-700 hover:scale-110"
             />

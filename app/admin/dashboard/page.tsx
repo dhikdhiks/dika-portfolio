@@ -34,35 +34,74 @@ export default function AdminDashboard() {
   const [isLoading, setIsLoading] = useState(true)
   const [isRefreshing, setIsRefreshing] = useState(false)
 
-  const fetchResponses = async () => {
-    try {
-      console.log('Fetching responses...')
-      const res = await fetch("/api/admin/responses")
+  // const fetchResponses = async () => {
+  //   try {
+  //     console.log('Fetching responses...')
+  //     const res = await fetch("/api/admin/responses")
       
-      console.log('Response status:', res.status)
+  //     console.log('Response status:', res.status)
       
-      if (!res.ok) {
-        if (res.status === 401) {
-          console.log('Unauthorized - redirecting to login')
-          router.push("/admin")
-          return
-        }
-        throw new Error("Failed to fetch")
+  //     if (!res.ok) {
+  //       if (res.status === 401) {
+  //         console.log('Unauthorized - redirecting to login')
+  //         router.push("/admin")
+  //         return
+  //       }
+  //       throw new Error("Failed to fetch")
+  //     }
+
+  //     const data = await res.json()
+  //     console.log('Received data:', data)
+  //     console.log('Number of responses:', data.data?.length || 0)
+  //     setResponses(data.data || [])
+  //   } catch (error) {
+  //     console.error("Error fetching responses:", error)
+  //     toast.error("Failed to load responses")
+  //   } finally {
+  //     setIsLoading(false)
+  //     setIsRefreshing(false)
+  //   }
+  // }
+const fetchResponses = async () => {
+  try {
+    console.log("Fetching responses...")
+
+    const res = await fetch("/api/admin/responses")
+
+    console.log("Response status:", res.status)
+
+    const data = await res.json()
+
+    console.log("Received response:", data)
+
+    if (!res.ok) {
+      if (res.status === 401) {
+        console.log("Unauthorized - redirecting to login")
+        router.push("/admin")
+        return
       }
 
-      const data = await res.json()
-      console.log('Received data:', data)
-      console.log('Number of responses:', data.data?.length || 0)
-      setResponses(data.data || [])
-    } catch (error) {
-      console.error("Error fetching responses:", error)
-      toast.error("Failed to load responses")
-    } finally {
-      setIsLoading(false)
-      setIsRefreshing(false)
+      throw new Error(
+        data.message || data.error || `Failed to fetch: ${res.status}`
+      )
     }
-  }
 
+    console.log("Number of responses:", data.data?.length || 0)
+
+    setResponses(data.data || [])
+  } catch (error) {
+    console.error("Error fetching responses:", error)
+
+    toast.error(
+      error instanceof Error
+        ? error.message
+        : "Failed to load responses"
+    )
+  } finally {
+    setIsLoading(false)
+    setIsRefreshing(false)
+  }
+}
   useEffect(() => {
     fetchResponses()
   }, [])

@@ -1,17 +1,17 @@
 <div align="center">
 
-# 🚀 VimalDev Portfolio
+# 🚀 DikaDev Portfolio
 
-### *Quantitative Analyst | AI/ML Engineer | Data Scientist*
+### *Web Developer | ML Engineer | Data Scientist*
 
 [![Next.js](https://img.shields.io/badge/Next.js-15.2.4-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
 [![TailwindCSS](https://img.shields.io/badge/Tailwind-3.4-38bdf8?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
 [![React](https://img.shields.io/badge/React-19-61dafb?style=for-the-badge&logo=react)](https://react.dev/)
 
-*A modern, responsive portfolio showcasing expertise in quantitative finance, algorithmic trading, and AI/ML engineering.*
+*A modern, responsive portfolio showcasing expertise in quantitative finance, algorithmic trading, and ML Engineering.*
 
-[📧 Contact](mailto:vimaldhama0@gmail.com) • [💼 LinkedIn](https://linkedin.com/in/vimaldhama) • [🔗 GitHub](https://github.com/vimal0156)
+[📧 Contact](mailto:augustandhika263@gmail.com) • [💼 LinkedIn](https://linkedin.com/in/Dikadhama) • [🔗 GitHub](https://github.com/dhikdhiks)
 
 </div>
 
@@ -149,7 +149,7 @@ npm or pnpm package manager
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/vimal0156/portfolio.git
+git clone https://github.com/dhikdhiks/portfolio.git
 cd portfolio
 ```
 
@@ -214,7 +214,7 @@ portfolio/
 │   ├── p4.png
 │   ├── portfolio.png
 │   ├── trade.png
-│   ├── VIMALRESUME.pdf          # Resume file
+│   ├── DikaRESUME.pdf          # Resume file
 │   └── ...
 │
 └── Configuration files
@@ -277,7 +277,7 @@ EMAIL_PASS=your-16-digit-app-password
 **Update Personal Information:**
 - Edit `app/page.tsx` for content
 - Replace images in `public/` folder
-- Update `VIMALRESUME.pdf` with your resume
+- Update `DikaRESUME.pdf` with your resume
 - Modify `app/layout.tsx` for meta tags
 
 **Styling:**
@@ -298,7 +298,7 @@ npm start
 
 ### Deploy to Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vimal0156/portfolio)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/dhikdhiks/portfolio)
 
 1. Push your code to GitHub
 2. Import project to Vercel
@@ -326,9 +326,9 @@ This project is open source and available under the [MIT License](LICENSE).
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vimaldhama)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vimal0156)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vimaldhama0@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/Dikadhama)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dhikdhiks)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:augustandhika263@gmail.com)
 
 ### 💡 *"Engineering solutions that are both mathematically sound and practically impactful."*
 
@@ -338,9 +338,9 @@ This project is open source and available under the [MIT License](LICENSE).
 
 <div align="center">
 
-**Built with ❤️ by Vimal Dhama**
+**Built with ❤️ by Andhika August Farnaz**
 
-*Quantitative Analyst | AI/ML Engineer | Data Scientist*
+*Web Developer | ML Engineer | Data Scientist*
 
 ⭐ Star this repo if you find it helpful!
 

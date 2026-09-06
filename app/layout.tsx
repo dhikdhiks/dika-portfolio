@@ -3,8 +3,8 @@ import './globals.css'
 import { Toaster } from '@/components/ui/sonner'
 
 export const metadata: Metadata = {
-  title: 'Vimal Dhama - Quantitative Analyst | AI/ML Engineer',
-  description: 'Portfolio of Vimal Dhama - Quantitative Analyst, Data Scientist, and AI/ML Engineer specializing in algorithmic trading, predictive modeling, and intelligent automation.',
+  title: 'Andhika August Farnaz - Web Developer | ML Engineer',
+  description: 'Portfolio of Andhika August Farnaz - Web Developer, Data Scientist, and ML Engineer specializing in algorithmic trading, predictive modeling, and intelligent automation.',
 }
 
 export default function RootLayout({
