@@ -195,13 +195,6 @@ portfolio/
 ├── hooks/                        # Custom React hooks
 ├── lib/                          # Utility functions
 ├── public/                       # Static assets
-│   ├── AlgoStockGPT AI.png      # Project screenshots
-│   ├── BlockFinAI.png
-│   ├── Ruaroa AI.png
-│   ├── p4.png
-│   ├── portfolio.png
-│   ├── trade.png         
-│   └── ...
 │
 └── Configuration files
     ├── next.config.mjs          # Next.js config
