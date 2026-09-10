@@ -65,6 +65,8 @@ export function FloatingNav() {
                 size="icon"
                 className="text-zinc-400 hover:text-white hover:bg-zinc-700/50"
                 onClick={() => setIsOpen(!isOpen)}
+                aria-label={isOpen ? "Close menu" : "Open menu"}
+                aria-expanded={isOpen}
               >
                 {isOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
               </Button>

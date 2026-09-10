@@ -8,6 +8,14 @@
     "lint": "next lint",
     "start": "next start"
   },
+  "browserslist": [
+    "> 0.2%",
+    "last 3 versions",
+    "Firefox ESR",
+    "not dead",
+    "not ie 11",
+    "not op_mini all"
+  ],
   "dependencies": {
     "@emotion/is-prop-valid": "latest",
     "@hookform/resolvers": "^3.9.1",

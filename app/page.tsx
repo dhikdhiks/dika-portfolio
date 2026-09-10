@@ -286,20 +286,20 @@ export default function Portfolio() {
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8">
                   <div className="space-y-1">
-                    <div className="text-sm text-zinc-500">Name</div>
+                    <div className="text-sm text-zinc-400">Name</div>
                     <div className="font-medium">Andhika August Farnaz</div>
                   </div>
 
                   <div className="space-y-1">
-                    <div className="text-sm text-zinc-500">Email</div>
+                    <div className="text-sm text-zinc-400">Email</div>
                     <div className="font-medium break-all">augustandhika263@gmail.com</div>
                   </div>
                   <div className="space-y-1">
-                    <div className="text-sm text-zinc-500">Location</div>
+                    <div className="text-sm text-zinc-400">Location</div>
                     <div className="font-medium">Yogyakarta, Indonesia</div>
                   </div>
                   <div className="space-y-1">
-                    <div className="text-sm text-zinc-500">Availability</div>
+                    <div className="text-sm text-zinc-400">Availability</div>
                     <div className="font-medium text-green-500">Open to opportunities</div>
                   </div>
                 </div>
@@ -576,7 +576,7 @@ export default function Portfolio() {
                     <Mail className="h-5 w-5 text-phthalo-400" />
                   </div>
                   <div>
-                    <div className="text-sm text-zinc-500">Email</div>
+                    <div className="text-sm text-zinc-400">Email</div>
                     <div className="font-medium">
                       <Link href="mailto:augustandhika263@gmail.com" target="_blank" rel="noopener noreferrer">
                         augustandhika263@gmail.com
@@ -589,7 +589,7 @@ export default function Portfolio() {
                     <Linkedin className="h-5 w-5 text-phthalo-400" />
                   </div>
                   <div>
-                    <div className="text-sm text-zinc-500">LinkedIn</div>
+                    <div className="text-sm text-zinc-400">LinkedIn</div>
                     <div className="font-medium">
                         <Link href="https://www.linkedin.com/in/andhika-august-farnaz-624459294/" target="_blank" rel="noopener noreferrer">
                           Andhika August Farnaz
@@ -602,7 +602,7 @@ export default function Portfolio() {
                     <Github className="h-5 w-5 text-phthalo-400" />
                   </div>
                   <div>
-                    <div className="text-sm text-zinc-500">GitHub</div>
+                    <div className="text-sm text-zinc-400">GitHub</div>
                     <div className="font-medium">
                       <Link href="https://github.com/dhikdhiks" target="_blank" rel="noopener noreferrer">
                         github.com/dhikdhiks
@@ -676,7 +676,7 @@ export default function Portfolio() {
               </span>
               <span className="text-white">Dev</span>
             </Link>
-            <p className="text-sm text-zinc-500 mt-2">
+            <p className="text-sm text-zinc-400 mt-2">
               © {new Date().getFullYear()} Andhika August Farnaz. All rights reserved.
             </p>
           </div>

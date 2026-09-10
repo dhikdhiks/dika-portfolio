@@ -21,6 +21,12 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://i.ibb.co.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://i.ibb.co.com" />
+        <link
+          rel="preload"
+          as="image"
+          href="https://i.ibb.co.com/5hd5cHqS/IMG-20260116-184220-828.webp"
+          fetchPriority="high"
+        />
       </head>
       <body>
         {children}

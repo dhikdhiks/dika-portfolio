@@ -114,7 +114,9 @@ export function CreativeHero() {
           >
             <img
               src="https://i.ibb.co.com/5hd5cHqS/IMG-20260116-184220-828.webp"
-              alt="Shine Kyaw Kyaw Aung"
+              alt="Andhika August Farnaz"
+              width={320}
+              height={320}
               fetchPriority="high"
               decoding="async"
               className="w-full h-full object-cover transition-transform duration-700 hover:scale-110"
