@@ -3,6 +3,13 @@
 import { useState, useEffect } from "react"
 import { motion } from "framer-motion"
 
+const PARTICLE_OFFSETS = [
+  { x: 0, y: -20 },
+  { x: 14, y: -14 },
+  { x: -14, y: 14 },
+  { x: 14, y: 14 },
+]
+
 export function MouseFollower() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
   const [isVisible, setIsVisible] = useState(false)
@@ -18,7 +25,7 @@ export function MouseFollower() {
       
       // Add to trail
       setTrail(prev => {
-        const newTrail = [{ ...newPosition, id: trailId++ }, ...prev.slice(0, 8)]
+        const newTrail = [{ ...newPosition, id: trailId++ }, ...prev.slice(0, 5)]
         return newTrail
       })
     }
@@ -126,7 +133,7 @@ export function MouseFollower() {
       />
 
       {/* Floating particles */}
-      {[...Array(4)].map((_, i) => (
+      {PARTICLE_OFFSETS.map((offset, i) => (
         <motion.div
           key={`particle-${i}`}
           className="absolute w-0.5 h-0.5 rounded-full bg-emerald-300"
@@ -134,8 +141,8 @@ export function MouseFollower() {
             boxShadow: '0 0 4px rgba(0,155,119,0.8)'
           }}
           animate={{
-            x: mousePosition.x + Math.sin(Date.now() * 0.001 + i) * 20 - 1,
-            y: mousePosition.y + Math.cos(Date.now() * 0.001 + i) * 20 - 1,
+            x: mousePosition.x + offset.x - 1,
+            y: mousePosition.y + offset.y - 1,
             opacity: isVisible ? 0.7 : 0,
             scale: isVisible ? [0.5, 1, 0.5] : 0
           }}

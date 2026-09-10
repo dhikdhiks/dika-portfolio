@@ -115,6 +115,8 @@ export function CreativeHero() {
             <img
               src="https://i.ibb.co.com/5hd5cHqS/IMG-20260116-184220-828.webp"
               alt="Shine Kyaw Kyaw Aung"
+              fetchPriority="high"
+              decoding="async"
               className="w-full h-full object-cover transition-transform duration-700 hover:scale-110"
             />
 
@@ -123,7 +125,7 @@ export function CreativeHero() {
           </div>
 
           {/* Status indicator - moved outside the image */}
-          <div className="absolute bottom-0 right-0 flex items-center gap-2 bg-black/70 backdrop-blur-sm rounded-full px-3 py-1">
+          <div className="absolute bottom-0 right-0 flex items-center gap-2 bg-black/80 rounded-full px-3 py-1">
             <div 
               className="w-2 h-2 bg-green-500 rounded-full animate-pulse"
               style={{

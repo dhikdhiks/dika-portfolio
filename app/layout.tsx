@@ -18,6 +18,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="preconnect" href="https://i.ibb.co.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://i.ibb.co.com" />
+      </head>
       <body>
         {children}
 

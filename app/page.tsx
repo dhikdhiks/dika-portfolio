@@ -1,9 +1,8 @@
 import Link from "next/link"
-import { ArrowRight, Github, GraduationCap, Linkedin, Mail, Twitter } from "lucide-react"
+import { ArrowRight, Github, Linkedin, Mail } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import { ProjectCard } from "@/components/project-card"
-import { SkillBadge } from "@/components/skill-badge"
 import { Timeline } from "@/components/timeline"
 import { ContactForm } from "@/components/contact-form"
 import { CreativeHero } from "@/components/creative-hero"
@@ -12,11 +11,7 @@ import { MouseFollower } from "@/components/mouse-follower"
 import { ScrollProgress } from "@/components/scroll-progress"
 import { SectionHeading } from "@/components/section-heading"
 import { GlassmorphicCard } from "@/components/glassmorphic-card"
-import { GrindSection } from "@/components/grind-section"
-import { KnowledgeBrain } from "@/components/knowledge-brain"
 import { Marquee } from "@/components/magicui/marquee"
-import { ECGProjectCard } from "@/components/ECGProjectCard"
-import { LearnNavbar } from "@/components/learn-navbar"
 import {
   siPython,
   siPandas,
@@ -47,6 +42,22 @@ const skillIcons = {
   excel: siLibreofficecalc,
 };
 
+function Blob({
+  color = "rgba(38, 128, 74, 0.55)",
+  className = "",
+}: {
+  color?: string
+  className?: string
+}) {
+  return (
+    <div
+      aria-hidden
+      className={`blob ${className}`}
+      style={{ background: `radial-gradient(circle, ${color}, transparent 70%)` }}
+    />
+  )
+}
+
 export default function Portfolio() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-zinc-900 via-zinc-900 to-black text-white overflow-hidden">
@@ -57,9 +68,9 @@ export default function Portfolio() {
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-32 sm:pt-24">
         <div className="absolute inset-0 z-0">
-          <div className="absolute top-20 left-10 w-72 h-72 bg-phthalo-600 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
-          <div className="absolute top-40 right-10 w-72 h-72 bg-phthalo-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000"></div>
-          <div className="absolute bottom-20 left-1/3 w-72 h-72 bg-phthalo-700 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
+          <Blob className="top-20 left-10 w-72 h-72 opacity-20 animate-blob" color="rgba(38, 128, 74, 0.55)" />
+          <Blob className="top-40 right-10 w-72 h-72 opacity-20 animate-blob animation-delay-2000" color="rgba(86, 182, 125, 0.5)" />
+          <Blob className="bottom-20 left-1/3 w-72 h-72 opacity-20 animate-blob animation-delay-4000" color="rgba(32, 101, 60, 0.6)" />
         </div>
 
         <div className="container relative z-10 px-4 sm:px-6">
@@ -80,7 +91,7 @@ export default function Portfolio() {
             
             {/* 3. Software engineer badge */}
             <div className="flex justify-center">
-              <div className="relative px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/20">
+              <div className="relative px-3 py-1 text-xs font-medium rounded-full bg-white/10 border border-white/20">
                 <span className="relative z-10">Web Developer | ML Engineer | Data Scientist</span>
                 <span className="absolute inset-0 rounded-full bg-gradient-to-r from-phthalo-500/20 to-phthalo-700/20 animate-pulse"></span>
               </div>
@@ -150,7 +161,7 @@ export default function Portfolio() {
           <div className="hidden lg:grid grid-cols-2 gap-12 items-center">
             <div className="space-y-6 text-left">
               <div className="inline-block">
-                <div className="relative px-3 py-1 text-sm font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-4">
+                <div className="relative px-3 py-1 text-sm font-medium rounded-full bg-white/10 border border-white/20 mb-4">
                   <span className="relative z-10">Web Developer | ML Engineer | Data Scientist</span>
                   <span className="absolute inset-0 rounded-full bg-gradient-to-r from-phthalo-500/20 to-phthalo-700/20 animate-pulse"></span>
                 </div>
@@ -230,10 +241,10 @@ export default function Portfolio() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-32 relative">
+      <section id="about" className="py-32 relative cv-auto" style={{ containIntrinsicSize: "auto 1300px" }}>
         <div className="absolute inset-0 z-0">
-          <div className="absolute top-1/4 right-1/4 w-64 h-64 bg-phthalo-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
-          <div className="absolute bottom-1/3 left-1/3 w-64 h-64 bg-phthalo-700 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
+          <Blob className="top-1/4 right-1/4 w-64 h-64 opacity-10" color="rgba(38, 128, 74, 0.5)" />
+          <Blob className="bottom-1/3 left-1/3 w-64 h-64 opacity-10" color="rgba(32, 101, 60, 0.6)" />
         </div>
 
         <div className="container relative z-10">
@@ -246,6 +257,9 @@ export default function Portfolio() {
                 <img
                   src="https://i.ibb.co.com/HDqLgFtN/Whats-App-Image-2026-09-05-at-7-34-31-PM.jpg"
                   alt="Andhika August Farnaz"
+                  loading="lazy"
+                  decoding="async"
+                  fetchPriority="low"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
@@ -308,10 +322,10 @@ export default function Portfolio() {
       </section>
 
             {/* Skills Section */}
-      <section id="skills" className="py-32 relative">
+      <section id="skills" className="py-32 relative cv-auto">
         <div className="absolute inset-0 z-0">
-          <div className="absolute top-1/3 left-1/4 w-64 h-64 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
-          <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-phthalo-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
+          <Blob className="top-1/3 left-1/4 w-64 h-64 opacity-10" color="rgba(59, 130, 246, 0.45)" />
+          <Blob className="bottom-1/4 right-1/4 w-64 h-64 opacity-10" color="rgba(38, 128, 74, 0.5)" />
         </div>
 
         <div className="container relative z-10">
@@ -333,7 +347,7 @@ export default function Portfolio() {
                   return (
                     <div
                       key={skill.name}
-                      className="flex items-center gap-2 mx-4 px-4 py-2 rounded-full bg-zinc-800/50 backdrop-blur-sm border border-white/10"
+                      className="flex items-center gap-2 mx-4 px-4 py-2 rounded-full bg-zinc-800/80 border border-white/10"
                     >
                       {iconData && (
                         <svg
@@ -361,7 +375,7 @@ export default function Portfolio() {
                   return (
                     <div
                       key={skill.name}
-                      className="flex items-center gap-2 mx-4 px-4 py-2 rounded-full bg-zinc-800/50 backdrop-blur-sm border border-white/10"
+                      className="flex items-center gap-2 mx-4 px-4 py-2 rounded-full bg-zinc-800/80 border border-white/10"
                     >
                       {iconData && (
                         <svg
@@ -397,7 +411,7 @@ export default function Portfolio() {
                   return (
                     <div
                       key={skill.name}
-                      className="flex items-center gap-2 my-3 px-4 py-2 rounded-full bg-zinc-800/50 backdrop-blur-sm border border-white/10"
+                      className="flex items-center gap-2 my-3 px-4 py-2 rounded-full bg-zinc-800/80 border border-white/10"
                     >
                       {iconData && (
                         <svg
@@ -425,7 +439,7 @@ export default function Portfolio() {
                   return (
                     <div
                       key={skill.name}
-                      className="flex items-center gap-2 my-3 px-4 py-2 rounded-full bg-zinc-800/50 backdrop-blur-sm border border-white/10"
+                      className="flex items-center gap-2 my-3 px-4 py-2 rounded-full bg-zinc-800/80 border border-white/10"
                     >
                       {iconData && (
                         <svg
@@ -448,10 +462,10 @@ export default function Portfolio() {
       </section>
 
 {/* Projects Section */}
-<section id="projects" className="py-32 relative">
+<section id="projects" className="py-32 relative cv-auto" style={{ containIntrinsicSize: "auto 3200px" }}>
   <div className="absolute inset-0 z-0">
-    <div className="absolute top-1/4 left-1/3 w-64 h-64 bg-phthalo-700 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
-    <div className="absolute bottom-1/3 right-1/4 w-64 h-64 bg-yellow-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
+    <Blob className="top-1/4 left-1/3 w-64 h-64 opacity-10" color="rgba(32, 101, 60, 0.55)" />
+    <Blob className="bottom-1/3 right-1/4 w-64 h-64 opacity-10" color="rgba(234, 179, 8, 0.4)" />
   </div>
 
   <div className="container relative z-10">
@@ -528,10 +542,10 @@ export default function Portfolio() {
       </section> */}
 
       {/* Experience Section */}
-      <section id="experience" className="py-32 relative">
+      <section id="experience" className="py-32 relative cv-auto">
         <div className="absolute inset-0 z-0">
-          <div className="absolute top-1/3 right-1/3 w-64 h-64 bg-phthalo-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
-          <div className="absolute bottom-1/4 left-1/4 w-64 h-64 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
+          <Blob className="top-1/3 right-1/3 w-64 h-64 opacity-10" color="rgba(38, 128, 74, 0.5)" />
+          <Blob className="bottom-1/4 left-1/4 w-64 h-64 opacity-10" color="rgba(59, 130, 246, 0.4)" />
         </div>
 
         <div className="container relative z-10">
@@ -544,10 +558,10 @@ export default function Portfolio() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-32 relative">
+      <section id="contact" className="py-32 relative cv-auto">
         <div className="absolute inset-0 z-0">
-          <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-phthalo-700 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
-          <div className="absolute bottom-1/3 right-1/3 w-64 h-64 bg-phthalo-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
+          <Blob className="top-1/4 left-1/4 w-64 h-64 opacity-10" color="rgba(32, 101, 60, 0.55)" />
+          <Blob className="bottom-1/3 right-1/3 w-64 h-64 opacity-10" color="rgba(38, 128, 74, 0.5)" />
         </div>
 
         <div className="container relative z-10">

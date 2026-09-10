@@ -17,7 +17,7 @@ export function SectionHeading({ title, subtitle }: SectionHeadingProps) {
         viewport={{ once: true }}
       >
         <div className="inline-block">
-          <div className="relative px-3 py-1 text-sm font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-2">
+          <div className="relative px-3 py-1 text-sm font-medium rounded-full bg-white/10 border border-white/20 mb-2">
             <span className="relative z-10">{subtitle}</span>
             <span className="absolute inset-0 rounded-full bg-gradient-to-r from-phthalo-500/20 to-phthalo-700/20 animate-pulse"></span>
           </div>

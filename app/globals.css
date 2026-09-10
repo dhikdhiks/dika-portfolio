@@ -84,6 +84,43 @@
 
 .animate-blob {
   animation: blob 7s infinite;
+  will-change: transform;
+}
+
+/* Blobs are just radial-gradient glows (no filter/blur/mix-blend),
+   so animating them only touches the compositor thread. */
+.blob {
+  position: absolute;
+  border-radius: 9999px;
+  pointer-events: none;
+}
+
+/* Loading/painting optimisation for long sections:
+   offscreen content isn't laid out/painted until scrolled near. */
+.cv-auto {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 900px;
+}
+
+/* Continuous glow animations are disabled on mobile (largest jank source). */
+@media (max-width: 767px) {
+  .animate-blob {
+    animation: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  html {
+    scroll-behavior: auto !important;
+  }
 }
 
 @keyframes marquee {
@@ -199,13 +236,6 @@ html, body {
 body {
   min-height: 100vh;
   background: #18181b; /* zinc-900 fallback */
-}
-
-/* Constrain blobs on very small screens */
-@media (max-width: 444px) {
-  .animate-blob {
-    transform: scale(0.7);
-  }
 }
 
 /* Disable horizontal scroll completely */
