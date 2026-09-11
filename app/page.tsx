@@ -255,7 +255,7 @@ export default function Portfolio() {
               <div className="absolute -inset-4 rounded-xl bg-gradient-to-r from-phthalo-500/20 to-phthalo-700/20 blur-xl opacity-70"></div>
               <div className="relative aspect-square rounded-xl overflow-hidden border border-zinc-800">
                 <img
-                  src="/profile-2.avif"
+                  src="https://i.ibb.co.com/xKG3mCMZ/profile-2.avif"
                   alt="Andhika August Farnaz"
                   loading="lazy"
                   decoding="async"
@@ -517,6 +517,9 @@ export default function Portfolio() {
   </div>
 </section>
 
+      {/* Grind anchor target (section content currently disabled) */}
+      <div id="grind" tabIndex={-1} className="scroll-mt-24" />
+
       {/* Grind Section */}
       {/* <section className="py-32 relative" id="grind">
         <div className="absolute inset-0 z-0">
@@ -573,7 +576,7 @@ export default function Portfolio() {
               <div className="space-y-6">
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center">
-                    <Mail className="h-5 w-5 text-phthalo-400" />
+                    <Mail className="h-5 w-5 text-phthalo-300" />
                   </div>
                   <div>
                     <div className="text-sm text-zinc-400">Email</div>
@@ -586,7 +589,7 @@ export default function Portfolio() {
                 </div>
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center">
-                    <Linkedin className="h-5 w-5 text-phthalo-400" />
+                    <Linkedin className="h-5 w-5 text-phthalo-300" />
                   </div>
                   <div>
                     <div className="text-sm text-zinc-400">LinkedIn</div>
@@ -599,7 +602,7 @@ export default function Portfolio() {
                 </div>
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center">
-                    <Github className="h-5 w-5 text-phthalo-400" />
+                    <Github className="h-5 w-5 text-phthalo-300" />
                   </div>
                   <div>
                     <div className="text-sm text-zinc-400">GitHub</div>

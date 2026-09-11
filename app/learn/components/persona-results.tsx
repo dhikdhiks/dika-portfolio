@@ -32,7 +32,7 @@ export function PersonaResult({ persona, name, email }: PersonaResultProps) {
           </div>
           <p className="text-zinc-400">
             We'll notify you at{" "}
-            <span className="text-phthalo-400 font-medium">{email}</span> when courses or 1-on-1 mentoring becomes available.
+            <span className="text-phthalo-300 font-medium">{email}</span> when courses or 1-on-1 mentoring becomes available.
           </p>
         </motion.div>
 
@@ -102,7 +102,7 @@ export function PersonaResult({ persona, name, email }: PersonaResultProps) {
               className="mt-8 p-4 rounded-lg bg-phthalo-900/20 border border-phthalo-700/30"
             >
               <p className="text-sm text-zinc-400 text-center">
-                <span className="text-phthalo-400 font-medium">Hey {name}!</span> Fitting candidates will be personally contacted when spots open up for courses and mentorship.
+                <span className="text-phthalo-300 font-medium">Hey {name}!</span> Fitting candidates will be personally contacted when spots open up for courses and mentorship.
               </p>
             </motion.div>
 

@@ -32,7 +32,7 @@ export function QuizProgress({ currentStep, totalSteps }: QuizProgressProps) {
         <span className="text-zinc-400">
           Question {currentStep} of {totalSteps}
         </span>
-        <span className="text-phthalo-400 font-medium">
+        <span className="text-phthalo-300 font-medium">
           {Math.round(progress)}% Complete
         </span>
       </div>

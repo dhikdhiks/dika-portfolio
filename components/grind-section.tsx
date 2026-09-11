@@ -554,12 +554,12 @@ const handleMouseDown = (e: React.MouseEvent) => {
                 <div className="absolute -inset-1 bg-gradient-to-r from-phthalo-500/20 to-phthalo-700/20 rounded-2xl blur opacity-50"></div>
 
                 <div className="relative text-center">
-                  <div className="text-6xl text-phthalo-400 mb-6">"</div>
+                  <div className="text-6xl text-phthalo-300 mb-6">"</div>
                   <blockquote className="text-xl md:text-2xl font-light text-zinc-200 leading-relaxed mb-8">
                     The society that separates its scholars from its warriors will have its thinking done by cowards and
                     its fighting by fools.
                   </blockquote>
-                  <cite className="text-lg text-phthalo-400 font-medium">— Thucydides</cite>
+                  <cite className="text-lg text-phthalo-300 font-medium">— Thucydides</cite>
                 </div>
               </div>
             </motion.div>

@@ -87,6 +87,18 @@
   will-change: transform;
 }
 
+/* Soft bobbing for decorative code symbols (transform-only, keeps
+   full opacity so text contrast stays auditable). */
+@keyframes float-soft {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
 /* Blobs are just radial-gradient glows (no filter/blur/mix-blend),
    so animating them only touches the compositor thread. */
 .blob {

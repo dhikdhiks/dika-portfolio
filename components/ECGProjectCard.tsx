@@ -95,7 +95,7 @@ export function ECGProjectCard({ title, description, tags, image, repoUrl }: ECG
                   <div className="space-y-6 mt-4">
                     {/* Contact Section */}
                     <div className="bg-zinc-800/50 rounded-lg p-4 border border-zinc-700/50">
-                      <h4 className="text-lg font-semibold mb-2 text-phthalo-400">📧 Contact & Support</h4>
+                      <h4 className="text-lg font-semibold mb-2 text-phthalo-300">📧 Contact & Support</h4>
                       <p className="text-zinc-300">
                         <strong className="text-white">App Support:</strong> augustandhika263@gmail.com
                       </p>
@@ -106,7 +106,7 @@ export function ECGProjectCard({ title, description, tags, image, repoUrl }: ECG
 
                     {/* Getting Started */}
                     <div className="bg-zinc-800/50 rounded-lg p-4 border border-zinc-700/50">
-                      <h4 className="text-lg font-semibold mb-3 text-phthalo-400">🚀 Getting Started</h4>
+                      <h4 className="text-lg font-semibold mb-3 text-phthalo-300">🚀 Getting Started</h4>
                       <ul className="text-zinc-300 space-y-2 text-sm">
                         <li className="flex items-start gap-2">
                           <span className="text-phthalo-500 mt-1">•</span>
@@ -133,7 +133,7 @@ export function ECGProjectCard({ title, description, tags, image, repoUrl }: ECG
 
                     {/* Troubleshooting */}
                     <div className="bg-zinc-800/50 rounded-lg p-4 border border-zinc-700/50">
-                      <h4 className="text-lg font-semibold mb-3 text-phthalo-400">🔧 Troubleshooting</h4>
+                      <h4 className="text-lg font-semibold mb-3 text-phthalo-300">🔧 Troubleshooting</h4>
                       <div className="space-y-3">
                         <div>
                           <p className="text-white font-medium text-sm">Device not found?</p>
@@ -156,7 +156,7 @@ export function ECGProjectCard({ title, description, tags, image, repoUrl }: ECG
 
                     {/* App Features */}
                     <div className="bg-zinc-800/50 rounded-lg p-4 border border-zinc-700/50">
-                      <h4 className="text-lg font-semibold mb-3 text-phthalo-400">📊 App Features</h4>
+                      <h4 className="text-lg font-semibold mb-3 text-phthalo-300">📊 App Features</h4>
                       <ul className="text-zinc-300 space-y-2 text-sm">
                         <li className="flex items-start gap-2">
                           <span className="text-phthalo-500 mt-1">•</span>
@@ -183,7 +183,7 @@ export function ECGProjectCard({ title, description, tags, image, repoUrl }: ECG
 
                     {/* System Requirements */}
                     <div className="bg-zinc-800/50 rounded-lg p-4 border border-zinc-700/50">
-                      <h4 className="text-lg font-semibold mb-3 text-phthalo-400">📱 System Requirements</h4>
+                      <h4 className="text-lg font-semibold mb-3 text-phthalo-300">📱 System Requirements</h4>
                       <ul className="text-zinc-300 space-y-2 text-sm">
                         <li className="flex items-start gap-2">
                           <span className="text-phthalo-500 mt-1">•</span>

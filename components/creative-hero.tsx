@@ -137,7 +137,7 @@ export function CreativeHero() {
 
           {/* Floating code symbols */}
           <div
-            className="absolute -top-8 -left-8 text-phthalo-400 text-2xl font-mono animate-bounce transition-all duration-300"
+            className="absolute -top-8 -left-8 text-phthalo-300 text-2xl font-mono animate-bounce transition-all duration-300"
             style={{ 
               animationDelay: "0.5s",
               textShadow: glowIntensity > 0 ? `0 0 ${5 + glowIntensity * 3}px currentColor` : 'none'
@@ -146,7 +146,7 @@ export function CreativeHero() {
             {"<>"}
           </div>
           <div
-            className="absolute -top-4 -right-12 text-phthalo-500 text-xl font-mono animate-pulse transition-all duration-300"
+            className="absolute -top-4 -right-12 text-phthalo-300 text-xl font-mono animate-[float-soft_3s_ease-in-out_infinite] transition-all duration-300"
             style={{ 
               animationDelay: "1s",
               textShadow: glowIntensity > 0 ? `0 0 ${5 + glowIntensity * 3}px currentColor` : 'none'
@@ -155,7 +155,7 @@ export function CreativeHero() {
             {"{ }"}
           </div>
           <div
-            className="absolute -bottom-6 -left-10 text-phthalo-600 text-lg font-mono animate-bounce transition-all duration-300"
+            className="absolute -bottom-6 -left-10 text-phthalo-300 text-lg font-mono animate-bounce transition-all duration-300"
             style={{ 
               animationDelay: "1.5s",
               textShadow: glowIntensity > 0 ? `0 0 ${5 + glowIntensity * 3}px currentColor` : 'none'
@@ -164,7 +164,7 @@ export function CreativeHero() {
             {"</>"}
           </div>
           <div
-            className="absolute -bottom-8 -right-8 text-phthalo-400 text-xl font-mono animate-pulse transition-all duration-300"
+            className="absolute -bottom-8 -right-8 text-phthalo-300 text-xl font-mono animate-[float-soft_3s_ease-in-out_infinite] transition-all duration-300"
             style={{ 
               animationDelay: "2s",
               textShadow: glowIntensity > 0 ? `0 0 ${5 + glowIntensity * 3}px currentColor` : 'none'

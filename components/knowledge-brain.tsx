@@ -589,7 +589,7 @@ export function KnowledgeBrain() {
 
                 <p className="text-zinc-300 leading-relaxed">{selectedNode.description}</p>
 
-                <div className="mt-6 flex items-center gap-2 text-sm text-phthalo-400">
+                <div className="mt-6 flex items-center gap-2 text-sm text-phthalo-300">
                   <Brain className="h-4 w-4" />
                   <span>Part of my neural knowledge network</span>
                 </div>

@@ -19,8 +19,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="preconnect" href="https://i.ibb.co.com" />
-        <link rel="dns-prefetch" href="https://i.ibb.co.com" />
         <link
           rel="preload"
           as="image"

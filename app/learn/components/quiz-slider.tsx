@@ -20,7 +20,7 @@ export function QuizSlider({ value, onChange, labels, emoji }: QuizSliderProps) 
       {/* Current selection display */}
       <div className="text-center space-y-3">
         <div className="text-5xl">{emoji}</div>
-        <div className="text-xl sm:text-2xl font-medium text-phthalo-400">
+        <div className="text-xl sm:text-2xl font-medium text-phthalo-300">
           {labels[value - 1]}
         </div>
       </div>
@@ -42,7 +42,7 @@ export function QuizSlider({ value, onChange, labels, emoji }: QuizSliderProps) 
             <span
               key={idx}
               className={`text-center transition-colors ${
-                value === idx + 1 ? "text-phthalo-400 font-medium" : ""
+                value === idx + 1 ? "text-phthalo-300 font-medium" : ""
               }`}
             >
               {idx + 1}
@@ -57,7 +57,7 @@ export function QuizSlider({ value, onChange, labels, emoji }: QuizSliderProps) 
           <div
             key={idx}
             className={`p-2 rounded-lg transition-colors ${
-              value === idx + 1 ? "bg-phthalo-500/10 text-phthalo-400" : "bg-zinc-900/30"
+              value === idx + 1 ? "bg-phthalo-500/10 text-phthalo-300" : "bg-zinc-900/30"
             }`}
           >
             <span className="font-medium">{idx + 1}.</span> {label}

@@ -242,7 +242,7 @@ export function ResponseTable({ responses }: ResponseTableProps) {
                     <td className="p-3">{response.name}</td>
                     <td className="p-3 text-sm text-zinc-400">{response.email}</td>
                     <td className="p-3">
-                      <span className="px-2 py-1 rounded-full bg-phthalo-500/10 text-phthalo-400 text-xs">
+                      <span className="px-2 py-1 rounded-full bg-phthalo-500/10 text-phthalo-300 text-xs">
                         {personaLabels[response.assigned_persona] || response.assigned_persona}
                       </span>
                     </td>
