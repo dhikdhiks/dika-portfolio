@@ -170,27 +170,14 @@
   background: rgba(38, 128, 74, 0.8);
 }
 
-@keyframes shimmer {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(100%);
-  }
-}
 
-.animate-shimmer {
-  animation: shimmer 2s infinite;
-}
 
-html {
+/* Disable horizontal scroll completely */
+html, body {
   overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
 }
-
-body {
-  overflow-x: hidden;
-}
-
 
 /* Fix slider colors */
 [data-radix-collection-item] {
@@ -225,36 +212,16 @@ input:-moz-autofill:focus {
   color: #ffffff !important;
 }
 
-/* Fix for very small screens - prevent white space */
-html, body {
-  overflow-x: hidden;
-  width: 100%;
-  max-width: 100vw;
-}
-
 /* Ensure full coverage on small screens */
 body {
   min-height: 100vh;
   background: #18181b; /* zinc-900 fallback */
 }
 
-/* Disable horizontal scroll completely */
-html, body {
-  overflow-x: hidden;
-  width: 100%;
-  max-width: 100vw;
-}
-
 body {
   position: relative;
 }
 
-/* Also disable on the main app wrapper */
-#__next {
-  overflow-x: hidden;
-}
-
-/* Replace the old shimmer animation with this */
 @keyframes shimmer-continuous {
   0% {
     transform: translateX(-100%);

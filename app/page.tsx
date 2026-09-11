@@ -255,7 +255,7 @@ export default function Portfolio() {
               <div className="absolute -inset-4 rounded-xl bg-gradient-to-r from-phthalo-500/20 to-phthalo-700/20 blur-xl opacity-70"></div>
               <div className="relative aspect-square rounded-xl overflow-hidden border border-zinc-800">
                 <img
-                  src="https://i.ibb.co.com/HDqLgFtN/Whats-App-Image-2026-09-05-at-7-34-31-PM.jpg"
+                  src="https://i.ibb.co.com/xKG3mCMZ/profile-2.avif"
                   alt="Andhika August Farnaz"
                   loading="lazy"
                   decoding="async"
@@ -477,7 +477,7 @@ export default function Portfolio() {
         title="Webku"
         description="A professional web development service platform designed specifically for MSMEs (UMKM). This website offers comprehensive website creation services including custom design, e-commerce solutions, and digital presence optimization. Built with modern technologies to deliver fast, responsive, and SEO-friendly websites tailored for small business needs."
         tags={["Next.js", "React", "Tailwind CSS", "Radix UI", "shadcn/ui", "Lucide React", "Framer Motion", "React Hook Form", "Zod", "MongoDB", "Axios", "SWR", "TanStack React Query", "Node.js", "npm", "Yarn", "Git"]}
-        image="https://i.ibb.co.com/qF78YFst/webkuuss.png"
+        image="https://i.ibb.co.com/BVypk477/p-web-webkuuss.avif"
         repoUrl="https://github.com/dhikdhiks/Webku"
       />
 
@@ -485,7 +485,7 @@ export default function Portfolio() {
         title="Uniqloecomerce"
         description="A modern e-commerce platform built with PHP and Laravel, featuring a complete shopping cart system with Surfsidemedia integration. Includes real-time chat functionality with Chatify, social authentication via Socialite, and a clean UI with Heroicons and Boxicons. Fully tested with PHPUnit and Faker, and optimized with Laravel Sail, Pail, and Pint for seamless development and deployment."
         tags={["PHP", "Laravel", "Shopping Cart (Surfsidemedia)", "Chatify", "Socialite", "Laravel UI", "Intervention Image", "Heroicons", "Boxicons", "Tinker", "Laravel Sail", "Laravel Pail", "Laravel Pint", "PHPUnit", "Faker", "Mockery", "Collision"]}
-        image="https://i.ibb.co.com/KjdvbxP8/UNIQLOEXOMERCE.png"
+        image="https://i.ibb.co.com/mCQxjt0J/p-web-uniqlo.avif"
         repoUrl="https://github.com/dhikdhiks/uniqloeccomers"
       />
 
@@ -493,7 +493,7 @@ export default function Portfolio() {
         title="Wine Quality Prediction"
         description="A machine learning project that predicts the quality of wine based on physicochemical properties using classification models. Features comprehensive data analysis and visualization with Matplotlib and Seaborn, and implements multiple algorithms including Random Forest, SVM, and Logistic Regression. The project includes feature importance analysis and model evaluation with hyperparameter tuning."
         tags={["Python", "NumPy", "Pandas", "Matplotlib", "Seaborn", "Scikit-learn", "Jupyter Notebook"]}
-        image="https://i.ibb.co.com/1Jp8r0tr/Wine-quality-predict.png"
+        image="https://i.ibb.co.com/byyrDj6/p-ml-Wine-quality-predict.avif"
         repoUrl="https://github.com/dhikdhiks/wine-quality-predict"
       />
 
@@ -501,7 +501,7 @@ export default function Portfolio() {
         title="Salary Prediction"
         description="A machine learning web application that predicts annual salary based on demographic and professional factors including age, gender, education, job title, country, race, and years of experience. Uses Random Forest Regressor with 94.6% R² accuracy. Features an interactive Streamlit frontend with real-time predictions and automatic job title categorization."
         tags={["Python", "Pandas", "NumPy", "Scikit-learn", "Streamlit", "Matplotlib", "Seaborn", "Pickle", "Git & GitHub"]}
-        image="https://i.ibb.co.com/7tC9Rskw/salary-predict.png"
+        image="https://i.ibb.co.com/rKDp5FFH/p-ml-salary-predict.avif"
         repoUrl="https://github.com/dhikdhiks/Salary-Prediction"
       />
 
@@ -509,7 +509,7 @@ export default function Portfolio() {
         title="Orange Classification"
         description="A machine learning classification web application that predicts the quality of oranges (Bagus/Sedang/Jelek) based on physical characteristics such as diameter, weight, skin thickness, sugar content, region, color, and harvest season. Built with Logistic Regression and Streamlit, featuring an interactive form with dropdown selections and confidence score display."
         tags={["Python", "Pandas", "NumPy", "Scikit-learn", "Streamlit", "Matplotlib", "Joblib", "Git & GitHub"]}
-        image="https://i.ibb.co.com/twRDDvv6/orange-classification.png"
+        image="https://i.ibb.co.com/ccZQfHVc/p-ml-orange-classification.avif"
         repoUrl="https://github.com/dhikdhiks/MLOrangeQualityClasification"
       />
 

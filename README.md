@@ -49,21 +49,21 @@
 <table>
   <tr>
     <td align="center" width="33%">
-      <img src="https://i.ibb.co.com/qF78YFst/webkuuss.png" alt="Webku" width="100%"/>
+      <img src="https://i.ibb.co.com/BVypk477/p-web-webkuuss.avif" alt="Webku" width="100%"/>
       <br/>
       <b>Webku</b>
       <br/>
       <sub>Website Development Service for UMKM</sub>
     </td>
     <td align="center" width="33%">
-      <img src="https://i.ibb.co.com/KjdvbxP8/UNIQLOEXOMERCE.png" alt="Uniqloecomerce" width="100%"/>
+      <img src="https://i.ibb.co.com/mCQxjt0J/p-web-uniqlo.avif" alt="Uniqloecomerce" width="100%"/>
       <br/>
       <b>Uniqloecomerce</b>
       <br/>
       <sub>Modern E-Commerce Platform</sub>
     </td>
     <td align="center" width="33%">
-      <img src="https://i.ibb.co.com/twRDDvv6/orange-classification.png" alt="Orange Classification" width="100%"/>
+      <img src="https://i.ibb.co.com/ccZQfHVc/p-ml-orange-classification.avif" alt="Orange Classification" width="100%"/>
       <br/>
       <b>Orange Classification</b>
       <br/>
@@ -72,14 +72,14 @@
   </tr>
   <tr>
     <td align="center" width="33%">
-      <img src="https://i.ibb.co.com/7tC9Rskw/salary-predict.png" alt="Salary Prediction" width="100%"/>
+      <img src="https://i.ibb.co.com/rKDp5FFH/p-ml-salary-predict.avif" alt="Salary Prediction" width="100%"/>
       <br/>
       <b>Salary Prediction</b>
       <br/>
       <sub>ML Web App for Salary Forecasting</sub>
     </td>
     <td align="center" width="33%">
-      <img src="https://i.ibb.co.com/1Jp8r0tr/Wine-quality-predict.png" alt="Wine Quality Prediction" width="100%"/>
+      <img src="https://i.ibb.co.com/byyrDj6/p-ml-Wine-quality-predict.avif" alt="Wine Quality Prediction" width="100%"/>
       <br/>
       <b>Wine Quality Prediction</b>
       <br/>

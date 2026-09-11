@@ -24,7 +24,7 @@ export default function RootLayout({
         <link
           rel="preload"
           as="image"
-          href="https://i.ibb.co.com/5hd5cHqS/IMG-20260116-184220-828.webp"
+          href="https://i.ibb.co.com/N66VCL2T/profile-1.avif"
           fetchPriority="high"
         />
       </head>
