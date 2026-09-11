@@ -19,12 +19,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="preconnect" href="https://i.ibb.co.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://i.ibb.co.com" />
         <link rel="dns-prefetch" href="https://i.ibb.co.com" />
         <link
           rel="preload"
           as="image"
-          href="https://i.ibb.co.com/N66VCL2T/profile-1.avif"
+          href="/profile-1.avif"
           fetchPriority="high"
         />
       </head>

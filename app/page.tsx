@@ -255,7 +255,7 @@ export default function Portfolio() {
               <div className="absolute -inset-4 rounded-xl bg-gradient-to-r from-phthalo-500/20 to-phthalo-700/20 blur-xl opacity-70"></div>
               <div className="relative aspect-square rounded-xl overflow-hidden border border-zinc-800">
                 <img
-                  src="https://i.ibb.co.com/xKG3mCMZ/profile-2.avif"
+                  src="/profile-2.avif"
                   alt="Andhika August Farnaz"
                   loading="lazy"
                   decoding="async"

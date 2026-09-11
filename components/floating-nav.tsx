@@ -96,11 +96,11 @@ export function FloatingNav() {
 
       {/* Mobile menu */}
       {isMobile && (
-        <motion.div
-          className={`fixed inset-0 z-40 bg-black/95 ${isOpen ? "block" : "hidden"}`}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: isOpen ? 1 : 0 }}
-          transition={{ duration: 0.3 }}
+        <div
+          aria-hidden={!isOpen}
+          className={`fixed inset-0 z-40 bg-black/95 transition-opacity duration-300 ${
+            isOpen ? "opacity-100 visible" : "opacity-0 invisible"
+          }`}
         >
           <div className="flex flex-col items-center justify-center h-full">
             {navItems.map((item) => (
@@ -114,10 +114,8 @@ export function FloatingNav() {
               </Link>
             ))}
 
-
-
           </div>
-        </motion.div>
+        </div>
       )}
     </>
   )

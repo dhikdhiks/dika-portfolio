@@ -24,9 +24,7 @@ export function CreativeHero() {
   return (
     <motion.div
       className="w-full h-[400px] md:h-[500px] relative"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 1 }}
+      initial={false}
     >
       <div className="relative w-full h-[400px] md:h-[500px] flex items-center justify-center">
         {/* Animated background elements */}
@@ -113,7 +111,7 @@ export function CreativeHero() {
             }}
           >
             <img
-              src="https://i.ibb.co.com/N66VCL2T/profile-1.avif"
+              src="/profile-1.avif"
               alt="Andhika August Farnaz"
               width={320}
               height={320}
