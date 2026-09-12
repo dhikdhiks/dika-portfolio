@@ -108,10 +108,15 @@
 }
 
 /* Loading/painting optimisation for long sections:
-   offscreen content isn't laid out/painted until scrolled near. */
-.cv-auto {
-  content-visibility: auto;
-  contain-intrinsic-size: auto 900px;
+   offscreen content isn't laid out/painted until scrolled near.
+   NOTE: only applied on desktop (md+). On mobile, content-visibility: auto
+   freezes CSS animations (e.g. the skills Marquee) when a section scrolls
+   into view, so it is disabled there to keep animations running. */
+@media (min-width: 768px) {
+  .cv-auto {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 900px;
+  }
 }
 
 /* Continuous glow animations are disabled on mobile (largest jank source). */
